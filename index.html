@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <img src="logo.png" alt="">
+    </nav>
+    <div class="search">
+        <h2>Enter a City Name To Know The Weather</h2>
+        <input type="text" id="name" placeholder="Enter Your City">
+        <button id="search">Go</button>
+        <br>
+        <div class="sk-chase hidden">
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="disc hidden">
+        <div>
+            <p class="country">IN</p>
+            <hr>
+            <p class="city">Patna</p>
+        </div>
+
+        <div>
+            <p class="weather">Weather</p>
+            <hr>
+            <ul>
+                <li class="weather-main">Clouds - </li>
+                <li class="weather-disc">Broken Clouds</li>
+            </ul>
+        </div>
+
+        <div class="temp">
+            <ul>
+                <li>Max:</li>
+                <li class="temp_max">26.5°c</li>
+            </ul>
+            <hr>
+            <ul>
+                <li>Min:</li>
+                <li class="temp_min">19.8°c</li>
+            </ul>
+        </div>
+
+        <div class="detail">
+            <ul>
+                <li><b>Humidity : </b></li>
+                <li class="detail-humid">70 rh</li>
+            </ul>
+            <ul>
+                <li><b>Wind : </b></li>
+                <li class="detail-wind">4.13 miles/hr</li>
+            </ul>
+            <ul>
+                <li><b>Sea Level : </b></li>
+                <li class="detail-sea">1005 m</li>
+            </ul>
+            <ul>
+                <li><b>Longitude : </b></li>
+                <li class="detail-lon">85.11°</li>
+            </ul>
+            <ul>
+                <li><b>Latitude : </b></li>
+                <li class="detail-lat">25.6°</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    </div>
+
+    <script type="module" src="js/control.js"></script>
+</body>
+
+</html>
