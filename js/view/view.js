@@ -17,7 +17,6 @@ class ViewDiscription {
 
     render(data) {
         this.#data = data;
-        console.log(this.#data)
         this.#visible();
         this.#generateMarkUp();
     }
@@ -33,7 +32,6 @@ class ViewDiscription {
 
     #generateMarkUp() {
         this.spinner.classList.add("hidden");
-        console.log(this.#data)
         this.country.innerHTML = this.#data.country;
         this.city.innerHTML = this.#data.city;
         this.weatherCond.innerHTML = `${this.#data.weather[0].main} - `;
